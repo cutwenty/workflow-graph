@@ -17,7 +17,16 @@ import GraphPolyline from './GraphPolyline';
 
 import styles from './WorkflowGraph.module.less';
 
-import { async } from '../../utils/delay';
+
+/**
+ * 异步执行函数
+ * @param {*} fn
+ */
+function async(fn = noop, timeout = 10) {
+  setTimeout(() => {
+    fn();
+  }, timeout);
+}
 
 
 /**

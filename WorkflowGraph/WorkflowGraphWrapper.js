@@ -2,7 +2,7 @@
 import React from 'react';
 import Loadable from 'react-loadable';
 
-import Loading from '../common/Loading';
+import Loading from '../Loading';
 import WorkflowGraph from './WorkflowGraph';
 
 const WorkflowGraphWrapper = Loadable({

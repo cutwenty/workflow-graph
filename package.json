@@ -1,0 +1,32 @@
+{
+  "name": "workflow-graph",
+  "version": "1.0.0",
+  "description": "根据 bpmn 的 xml 文件，画流程图。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cutwenty/workflow-graph.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinymce/tinymce-react": "^2.2.6",
+    "antd": "^3.10.0",
+    "bpmn-moddle": "^5.1.5",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.10",
+    "lodash-decorators": "^6.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-loadable": "^5.4.0",
+    "uuid": "^3.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/cutwenty/workflow-graph/issues"
+  },
+  "homepage": "https://github.com/cutwenty/workflow-graph#readme"
+}
